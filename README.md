@@ -27,3 +27,4 @@ alpha-blogs(dev)> article.errors.full_messages
 => ["Title can't be blank"]
 
 12) want to know more about validations refer active record validations in google
+13) Learn more about Rails form from documentation
