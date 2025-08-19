@@ -28,3 +28,7 @@ alpha-blogs(dev)> article.errors.full_messages
 
 12) want to know more about validations refer active record validations in google
 13) Learn more about Rails form from documentation
+
+14) REST - Representational state transfer - mapping http verbs (get,post,put/patch,delete) to CRUD actions
+15) resources provide RESTfult routes to rails resources
+16) Partials file name starts with _
