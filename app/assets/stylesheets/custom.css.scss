@@ -1,0 +1,58 @@
+@import 'bootstrap';
+
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-brand, .nav-link, .navbar-toggler-icon{
+    color: white !important;
+}
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight:bold;
+}
+
+#jumpotron-container{
+    background-color: #e4eaf0;
+    background-image: asset-url('aaron-burden-y02jEX_B0O0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 38rem;
+    align-content: center;
+}
+
+.form-container{
+    width: 60vw;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: 600;
+    padding: 48px;
+    padding-top: 20px;
+    border-radius: 24px;
+    background-color: rgb(0, 135, 162);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer{
+    flex-shrink: none;
+}
+
+.form-group{
+    margin-top: 10px;
+}

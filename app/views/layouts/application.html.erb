@@ -14,11 +14,18 @@
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "custom", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= render 'layouts/messages' %>
-    <%= yield %>
+  <body class="d-flex flex-column min-vh-100">
+    <%= render 'layouts/navigation' %>
+    <div id="page-content">
+      <%= render 'layouts/messages' %>
+      <main class="flex-fill" id="page-content">
+        <%= yield %>
+      </main>
+    </div>
+    <%= render 'layouts/footer'%>
   </body>
 </html>
